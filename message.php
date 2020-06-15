@@ -25,5 +25,5 @@ $data = array ('msgtype' => 'text','text' => array ('content' => $message));
 $data_string = json_encode($data);
 
 $result = request_by_curl($webhook, $data_string);  
-echo '<html><body>留言提交成功！ <a href="./contact.html">返回</a></body></html>"';
+echo '<html><body>留言提交成功！ <a href="./contact.html">返回</a></body></html>';
 ?>
