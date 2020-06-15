@@ -15,8 +15,12 @@ function request_by_curl($remote_server, $post_string) {
     return $data;  
 }  
 
+$name=$_POST['name'];
+$tel=$_POST['tel'];
+$message_0=$_POST['message'];
+
 $webhook = "https://oapi.dingtalk.com/robot/send?access_token=0487c10f11df7190d3c22f5680ff872f61b4c8adba96aad486384a60efd60b9e";
-$message="我就是我, 是不一样的烟火";
+$message='火天官网客户留言，客户名：'.$name.',电话：'.$tel.',留言内容：'.$message_0;
 $data = array ('msgtype' => 'text','text' => array ('content' => $message));
 $data_string = json_encode($data);
 
