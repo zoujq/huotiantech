@@ -1,1 +1,23 @@
 /* Your custom css code goes here */
+.list_fangan
+{
+	display: flex;
+	flex-wrap: wrap; 
+}
+.list_fangan img{
+	height: 2px;
+	width: 2px;
+}
+
+.list_fangan a
+{
+	display: flex;
+	margin: 5px 8px;
+	font-size: 1.224em;
+	text-align: center;
+	padding: 3px 15px;
+	background-color: #ff7676;
+	color: #fff;
+	border-radius: 4px;
+
+}
