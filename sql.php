@@ -59,7 +59,7 @@
         $ret=array();
         while($row = $result->fetch_assoc()) 
         {
-            array_push($ret,$row["P_title"]);
+            $ret[]=$row["P_title"];
         }
         return $ret;
     } 
