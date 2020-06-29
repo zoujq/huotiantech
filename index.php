@@ -84,7 +84,7 @@
             <img src="<?php echo $ret[0][3]; ?>" alt="Free Bootstrap Template " class="img-responsive">
             <div class="probootstrap-text-overlay">
               <h3><?php echo $ret[0][1]; ?></h3>
-              <p><?php echo substr($ret[0][2],10); ?></p>
+              <p><?php echo $str=$ret[0][2]; echo substr($str, 3); ?></p>
             </div>
           </a>
         </div>
