@@ -78,27 +78,11 @@
         <h2>火天方案成功案例分类</h2>
         
         <p class="mb20">
-          <strong class="probootstrap-black-color"><a href="#f1" class="probootstrap-scroll-down js-next">（1） 智能家居方案</a></strong> <br>
+          根据应用场景的不同，我们将方案分成5个大类，分别是： 智能家居方案、智能穿戴方案、智能医疗方案、智能母婴方案、智能共享设备方案
           
         </p>
 
-        <p class="mb20">
-          <strong class="probootstrap-black-color"><a href="#f2" class="probootstrap-scroll-down js-next">（2） 智能穿戴方案</a></strong> <br>
-
-        </p>
-        <p class="mb20">
-          <strong class="probootstrap-black-color"><a href="#f3" class="probootstrap-scroll-down js-next">（3） 智能医疗方案</a></strong> <br>
-
-        </p>
-        <p class="mb20">
-          <strong class="probootstrap-black-color"><a href="#f4" class="probootstrap-scroll-down js-next">（4） 智能母婴方案</a></strong> <br>
-
-        </p>
-
-        <p class="mb20" >
-          <strong class="probootstrap-black-color"><a href="#f5" class="probootstrap-scroll-down js-next">（5） 智能共享设备方案</a></strong> <br>
-
-        </p>
+       
 
         <p>
           <a href="./contact.html" role="button" class="btn btn-primary">合作咨询</a>
