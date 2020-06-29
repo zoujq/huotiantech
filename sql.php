@@ -50,7 +50,7 @@
     } 
 
 
-    $sql = "SELECT `P_title` FROM `P_detial_table` WHERE `P_class` ='智能家居方案' ORDER BY `P_order`";
+    $sql = "SELECT `P_id`,`P_title` FROM `P_detial_table` WHERE `P_class` ='智能家居方案' ORDER BY `P_order`";
     $result =$conn->query($sql);
 
     if ($result->num_rows > 0) 
@@ -59,7 +59,7 @@
         $ret=array();
         while($row = $result->fetch_assoc()) 
         {
-            array_push($ret,$row["P_title"]);
+            array_push($ret,$row["P_id"]=>$row["P_title"]);
         }
         return $ret;
     } 
