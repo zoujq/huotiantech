@@ -78,24 +78,18 @@
       <?php
        require_once './sql.php';
 
-        var_dump(get_detials(1)) ;
+        $ret=get_detials(1) ;
       ?>
 
-        <h2>多功能手机消毒器</h2>
-        <p>通过10分钟紫外线消毒能破坏微生物机体细胞中的DNA或RNA分子结构，造成长性细胞死亡，达到杀菌消毒的效果</p>
+        <h2> <?php $ret['P_title'] ?></h2>
+        <p><?php $ret['P_gaiyao'] ?></p>
         <p class="mb20">
           <strong class="probootstrap-black-color">参数:</strong> <br>
-          消毒方式: 紫外线 <br>
-          消毒时间: 3min <br>
-          消毒柜容量: 30ml<br>
-          无线充电：支持（15W）
+          <?php $ret['P_canshu'] ?>
         </p>
         <p class="mb50">
           <strong class="probootstrap-black-color">使用范围:</strong> <br>
-          口罩消毒、
-          化妆工具消毒、
-          手机消毒、
-          手表首饰消毒
+         <?php $ret['P_fanwei'] ?>
         </p>
 
         <p>
@@ -103,9 +97,7 @@
         </p>
       </div>
       <div class="col-md-9 col-md-pull-3">
-        <p><img src="./img/product/p1/1.jpg" alt="Free Bootstrap Template " class="img-responsive"></p>
-        <p><img src="./img/product/p1/2.jpg" alt="Free Bootstrap Template " class="img-responsive"></p>
-        <p><img src="./img/product/p1/3.jpg" alt="Free Bootstrap Template " class="img-responsive"></p>
+        <?php $ret['P_xiangqing'] ?>
       </div>
     </div>
   </section>
