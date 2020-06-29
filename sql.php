@@ -39,7 +39,7 @@
     return 0;
   }
 
-  function get_jiaju()
+  function get_fangan($fangan)
   {
     // 创建连接
     $conn = new mysqli($GLOBALS['servername'], $GLOBALS['username'], $GLOBALS['password'], $GLOBALS['dbname']);
@@ -50,7 +50,7 @@
     } 
 
 
-    $sql = "SELECT `P_id`,`P_title` FROM `P_detial_table` WHERE `P_class` ='智能家居方案' ORDER BY `P_order`";
+    $sql = "SELECT `P_id`,`P_title` FROM `P_detial_table` WHERE `P_class` ='".$fangan."' ORDER BY `P_order`";
     $result =$conn->query($sql);
 
     if ($result->num_rows > 0) 
