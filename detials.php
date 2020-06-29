@@ -91,7 +91,7 @@
         $sql = "SELECT * FROM `P_detial_table` ";
         $result = $conn->query($sql);
           
-        var_dump($result) ;
+        var_dump($conn) ;
 
         if ($result->num_rows > 0) 
         {
