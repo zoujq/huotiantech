@@ -78,25 +78,25 @@
         <h2>火天方案成功案例分类</h2>
         
         <p class="mb20">
-          <strong class="probootstrap-black-color">（1） 智能家居方案</strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f1">（1） 智能家居方案</a></strong> <br>
           
         </p>
 
         <p class="mb20">
-          <strong class="probootstrap-black-color">（2） 智能穿戴方案</strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f2">（2） 智能穿戴方案</a></strong> <br>
 
         </p>
         <p class="mb20">
-          <strong class="probootstrap-black-color">（3） 智能医疗方案</strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f3">（3） 智能医疗方案</a></strong> <br>
 
         </p>
         <p class="mb20">
-          <strong class="probootstrap-black-color">（4） 智能母婴方案</strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f4">（4） 智能母婴方案</a></strong> <br>
 
         </p>
 
         <p class="mb20" >
-          <strong class="probootstrap-black-color">（5） 智能共享设备方案</strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f5">（5） 智能共享设备方案</a></strong> <br>
 
         </p>
 
@@ -110,7 +110,7 @@
 
           
         ?>
-        <h2 >(1) 智能家居方案</h2>
+        <h2 id="f1">(1) 智能家居方案</h2>
         <div class="list_fangan" >  
         <?php 
           $jiaju=get_fangan("智能家居方案");
@@ -127,10 +127,50 @@
       </div>
 
       <div class="col-md-9 col-md-pull-3">
-        <h2>(1) 智能家居方案</h2>
+        <h2 id="f2">(2) 智能穿戴方案</h2>
         <div class="list_fangan">    
-          <a href="./detials.php?n=" >多功能宠物杀菌除臭净化器 </a>
-  
+          <?php 
+          $jiaju=get_fangan("智能穿戴方案");
+
+          foreach ( $jiaju as $value)
+          {
+            echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+          }
+        ?>  
+        <h2 id="f3">(3) 智能医疗方案</h2>
+        <div class="list_fangan">    
+          <?php 
+          $jiaju=get_fangan("智能医疗方案");
+
+          foreach ( $jiaju as $value)
+          {
+            echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+          }
+        ?>  
+        </div>
+
+        <h2 id="f4">(4) 智能母婴方案</h2>
+        <div class="list_fangan">    
+          <?php 
+          $jiaju=get_fangan("智能母婴方案");
+
+          foreach ( $jiaju as $value)
+          {
+            echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+          }
+        ?>  
+        </div>
+
+        <h2 id="f5">(5) 智能共享设备方案</h2>
+        <div class="list_fangan">    
+          <?php 
+          $jiaju=get_fangan("智能共享设备方案");
+
+          foreach ( $jiaju as $value)
+          {
+            echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+          }
+        ?>  
         </div>
         
       </div>
