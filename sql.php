@@ -87,7 +87,6 @@
         $ret=array();
         while($row = $result->fetch_assoc()) 
         {
-            echo $row["P_id"];
             $ret[]=array($row["P_id"],$row["P_title"],$row["P_gaiyao"],$row["P_zhutu"]);
         }
         return $ret;

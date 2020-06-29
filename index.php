@@ -73,6 +73,7 @@
   <?php  
     require_once './sql.php';
     $ret=get_tuijian();
+    echo "2";
   ?>
 
   <section id="next-section">
@@ -80,10 +81,10 @@
       <div class="row probootstrap-gutter0">
         <div class="col-md-4 col-sm-6">
           <a href="./detials.php?x=<?php echo $ret[0][0]; ?>" class="probootstrap-hover-overlay">
-            <img src="./img/product/p1/img_1.jpg" alt="Free Bootstrap Template " class="img-responsive">
+            <img src="<?php echo $ret[0][3]; ?>" alt="Free Bootstrap Template " class="img-responsive">
             <div class="probootstrap-text-overlay">
-              <h3>多功能杀菌器</h3>
-              <p>预防感染 无菌生活</p>
+              <h3><?php echo $ret[0][1]; ?></h3>
+              <p><?php echo $ret[0][2]; ?></p>
             </div>
           </a>
         </div>
