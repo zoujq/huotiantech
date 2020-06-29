@@ -88,7 +88,7 @@
             die("连接失败: " . $conn->connect_error);
         } 
 
-        $sql = "SELECT * FROM P_detial_table";
+        $sql = "SELECT * FROM `P_detial_table` ";
         $result = $conn->query($sql);
            
 
