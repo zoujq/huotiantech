@@ -78,7 +78,7 @@
         <h2>火天方案成功案例分类</h2>
         
         <p class="mb20">
-          <strong class="probootstrap-black-color"><a href="#f1">（1） 智能家居方案</a></strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f1" class="probootstrap-scroll-down js-next">（1） 智能家居方案</a></strong> <br>
           
         </p>
 
