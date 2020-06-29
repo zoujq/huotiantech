@@ -117,7 +117,8 @@
           var_dump( $jiaju);
           foreach ($ar as $jiaju)
           {
-            echo '<a href="./detials.php?n='.$ar.'" >'.$ar.'</a>';
+            echo "4564564";
+            //echo '<a href="./detials.php?n='.$ar.'" >'.$ar.'</a>';
           }
         ?>  
           
