@@ -78,7 +78,7 @@
     } 
 
 
-    $sql = "SELECT `P_id`,`P_title`,`P_gaiyao`,`P_zhutu`  FROM `P_detial_table` WHERE `P_state` = 3 ORDER BY `P_order` LIMIT 6";
+    $sql = "SELECT `P_id`,`P_title`,`P_biaoyu`,`P_gaiyao`,`P_zhutu`  FROM `P_detial_table` WHERE `P_state` = 3 ORDER BY `P_order` LIMIT 6";
     $result =$conn->query($sql);
 
     if ($result->num_rows > 0) 
@@ -87,7 +87,7 @@
         $ret=array();
         while($row = $result->fetch_assoc()) 
         {
-            $ret[]=array($row["P_id"],$row["P_title"],$row["P_gaiyao"],$row["P_zhutu"]);
+            $ret[]=array($row["P_id"],$row["P_title"],$row["P_gaiyao"],$row["P_zhutu"],,$row["P_biaoyu"]);
         }
         return $ret;
     } 
