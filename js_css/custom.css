@@ -21,3 +21,8 @@
 	border-radius: 4px;
 
 }
+.p-limit
+{
+	max-width:10px;
+	text-overflow:ellipsis;
+}
