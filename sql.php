@@ -9,7 +9,7 @@
 
 
  
-  function get_detials($P_id)
+  function get_detials($P_id,$P_title)
   {
     // 创建连接
     $conn = new mysqli($GLOBALS['servername'], $GLOBALS['username'], $GLOBALS['password'], $GLOBALS['dbname']);

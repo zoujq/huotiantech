@@ -108,11 +108,18 @@
         <?php  
           require_once './sql.php';
 
-          var_dump(get_jiaju());
+          
         ?>
         <h2 >(1) 智能家居方案</h2>
-        <div class="list_fangan" >    
-          <a href="./img/product/p6/1.jpg" >多功能宠物杀菌除臭净化器 </a>
+        <div class="list_fangan" >  
+        <?php 
+          $jiaju=get_jiaju();
+          foreach ($ar as $jiaju)
+          {
+            echo '<a href="./img/product/p6/1.jpg" >多功能宠物杀菌除臭净化器 </a>';
+          }
+        ?>  
+          
 
         </div>
         
