@@ -18,7 +18,7 @@
   function get_detials()
   {
      $sql = "SELECT * FROM `P_detial_table` WHERE `P_id` =1";
-      $result = $conn->query($sql);
+      $result = global $conn->query($sql);
 
       if ($result->num_rows > 0) 
       {
