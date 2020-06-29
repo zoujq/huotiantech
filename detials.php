@@ -81,12 +81,7 @@
         $P_id=$_GET["x"];
         $P_title=$_GET["n"];
 
-        if($P_title==NULL)
-        {
-          echo "string";
-        }
-
-        $ret=get_detials($P_id) ;
+        $ret=get_detials($P_id,$P_title) ;
       ?>
 
         <h2> <?php echo $ret['P_title']; ?></h2>

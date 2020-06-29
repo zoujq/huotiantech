@@ -19,8 +19,11 @@
         die("连接失败: " . $conn->connect_error);
     } 
 
-
     $sql = "SELECT * FROM `P_detial_table` WHERE `P_id` =$P_id";
+    if($P_title!=NULL)
+    {
+      $sql = "SELECT * FROM `P_detial_table` WHERE `P_title` ='".$P_title."'";
+    }
     $result =$conn->query($sql);
 
     if ($result->num_rows > 0) 
