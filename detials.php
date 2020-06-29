@@ -78,7 +78,7 @@
       <?php
         $servername = "localhost";
         $username = "wwwuser";
-        $password = "sfjkdwf1";
+        $password = "sfjkdwf";
          
         // 创建连接
         $conn = new mysqli($servername, $username, $password);
@@ -88,7 +88,7 @@
             die("连接失败: " . $conn->connect_error);
         } 
 
-        $sql = "SELECT * FROM `P_detial_table` ";
+        $sql = 'SELECT * FROM `P_detial_table` ';
         $result = $conn->query($sql);
            
 
