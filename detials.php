@@ -78,7 +78,7 @@
       <?php
         $servername = "localhost";
         $username = "wwwuser";
-        $password = "sfjkdwf";
+        $password = "sfjkdwf1";
          
         // 创建连接
         $conn = new mysqli($servername, $username, $password);
