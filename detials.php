@@ -81,15 +81,15 @@
         $ret=get_detials(1) ;
       ?>
 
-        <h2> <?php $ret['P_title'] ?></h2>
-        <p><?php $ret['P_gaiyao'] ?></p>
+        <h2> <?php echo $ret['P_title']; ?></h2>
+        <p><?php echo $ret['P_gaiyao']; ?></p>
         <p class="mb20">
           <strong class="probootstrap-black-color">参数:</strong> <br>
-          <?php $ret['P_canshu'] ?>
+          <?php echo $ret['P_canshu']; ?>
         </p>
         <p class="mb50">
           <strong class="probootstrap-black-color">使用范围:</strong> <br>
-         <?php $ret['P_fanwei'] ?>
+         <?php echo $ret['P_fanwei']; ?>
         </p>
 
         <p>
@@ -97,7 +97,7 @@
         </p>
       </div>
       <div class="col-md-9 col-md-pull-3">
-        <?php $ret['P_xiangqing'] ?>
+        <?php echo $ret['P_xiangqing']; ?>
       </div>
     </div>
   </section>
