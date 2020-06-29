@@ -79,9 +79,10 @@
         $servername = "localhost";
         $username = "wwwuser";
         $password = "sfjkdwf";
+        $dbname = "wwwmysql";
          
         // 创建连接
-        $conn = new mysqli($servername, $username, $password);
+        $conn = new mysqli($servername, $username, $password, $dbname);
          
         // 检测连接
         if ($conn->connect_error) {
