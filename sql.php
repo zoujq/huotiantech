@@ -9,7 +9,7 @@
 
 
  
-  function get_detials()
+  function get_detials($P_id)
   {
     // 创建连接
     $conn = new mysqli($GLOBALS['servername'], $GLOBALS['username'], $GLOBALS['password'], $GLOBALS['dbname']);
@@ -20,7 +20,7 @@
     } 
 
 
-    $sql = "SELECT * FROM `P_detial_table` WHERE `P_id` =1";
+    $sql = "SELECT * FROM `P_detial_table` WHERE `P_id` =$P_id";
     $result =$conn->query($sql);
 
     if ($result->num_rows > 0) 

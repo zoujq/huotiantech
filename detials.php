@@ -78,7 +78,7 @@
       <?php
        require_once './sql.php';
 
-      var_dump(get_detials()) ;
+        var_dump(get_detials(1)) ;
       ?>
 
         <h2>多功能手机消毒器</h2>
