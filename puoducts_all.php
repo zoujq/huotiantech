@@ -137,6 +137,8 @@
             echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
           }
         ?>  
+      </div>
+      <div class="col-md-9 col-md-pull-3">
         <h2 id="f3">(3) 智能医疗方案</h2>
         <div class="list_fangan">    
           <?php 
@@ -148,7 +150,9 @@
           }
         ?>  
         </div>
+      </div>
 
+      <div class="col-md-9 col-md-pull-3">
         <h2 id="f4">(4) 智能母婴方案</h2>
         <div class="list_fangan">    
           <?php 
@@ -160,7 +164,8 @@
           }
         ?>  
         </div>
-
+      </div>
+      <div class="col-md-9 col-md-pull-3">
         <h2 id="f5">(5) 智能共享设备方案</h2>
         <div class="list_fangan">    
           <?php 
@@ -172,7 +177,7 @@
           }
         ?>  
         </div>
-        
+       </div> 
       </div>
     </div>
   </section>
