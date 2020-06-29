@@ -137,6 +137,7 @@
             echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
           }
         ?>  
+        </div>
       </div>
       <div class="col-md-9 col-md-pull-3">
         <h2 id="f3">(3) 智能医疗方案</h2>
