@@ -114,9 +114,11 @@
         <div class="list_fangan" >  
         <?php 
           $jiaju=get_jiaju();
+          var_dump($jiaju);
           foreach ( $jiaju as $key=>$value)
           {
-            echo '<a href="./detials.php?n='.$key.'" >'.$value.'</a>';
+            echo  $key;
+            //echo '<a href="./detials.php?n='.$key.'" >'.$value.'</a>';
           }
         ?>  
           
