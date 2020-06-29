@@ -83,20 +83,20 @@
         </p>
 
         <p class="mb20">
-          <strong class="probootstrap-black-color"><a href="#f2">（2） 智能穿戴方案</a></strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f2" class="probootstrap-scroll-down js-next">（2） 智能穿戴方案</a></strong> <br>
 
         </p>
         <p class="mb20">
-          <strong class="probootstrap-black-color"><a href="#f3">（3） 智能医疗方案</a></strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f3" class="probootstrap-scroll-down js-next">（3） 智能医疗方案</a></strong> <br>
 
         </p>
         <p class="mb20">
-          <strong class="probootstrap-black-color"><a href="#f4">（4） 智能母婴方案</a></strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f4" class="probootstrap-scroll-down js-next">（4） 智能母婴方案</a></strong> <br>
 
         </p>
 
         <p class="mb20" >
-          <strong class="probootstrap-black-color"><a href="#f5">（5） 智能共享设备方案</a></strong> <br>
+          <strong class="probootstrap-black-color"><a href="#f5" class="probootstrap-scroll-down js-next">（5） 智能共享设备方案</a></strong> <br>
 
         </p>
 
