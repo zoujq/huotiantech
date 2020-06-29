@@ -12,7 +12,7 @@
   function get_detials()
   {
       // 创建连接
-      $conn = new mysqli($GLOBALS('servername'), $GLOBALS('username'), $GLOBALS('password'), $GLOBALS('dbname'));
+      $conn = new mysqli("localhost", "wwwuser", "sfjkdwf", "wwwmysql");
        
       // 检测连接
       if ($conn->connect_error) {
@@ -30,7 +30,7 @@
           }
       } 
 
-
+      return 0;
   }
 
 ?>
