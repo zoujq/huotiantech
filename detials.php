@@ -76,9 +76,11 @@
     <div class="container">
       <div class="col-md-3 col-md-push-9">
       <?php
-       require_once './sql.php';
+        require_once './sql.php';
 
-        $ret=get_detials(1) ;
+        $P_id=$_GET["pid"];
+
+        $ret=get_detials($P_id) ;
       ?>
 
         <h2> <?php echo $ret['P_title']; ?></h2>
