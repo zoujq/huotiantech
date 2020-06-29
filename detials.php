@@ -87,8 +87,19 @@
         if ($conn->connect_error) {
             die("连接失败: " . $conn->connect_error);
         } 
-            echo "连接成功";
 
+        $sql = "SELECT * FROM `P_detial_table` WHERE `P_id` =1 LIMIT 0 , 10";
+        $result = $conn->query($sql);
+           
+        if ($result->num_rows > 0) 
+        {
+            // 输出数据
+            while($row = $result->fetch_assoc()) 
+            {
+                echo "P_title: " . $row["P_title"];
+            }
+        } 
+        $conn->close();
       ?>
         <h2>多功能手机消毒器</h2>
         <p>通过10分钟紫外线消毒能破坏微生物机体细胞中的DNA或RNA分子结构，造成长性细胞死亡，达到杀菌消毒的效果</p>
