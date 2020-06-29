@@ -88,9 +88,10 @@
             die("连接失败: " . $conn->connect_error);
         } 
 
-        $sql = "SELECT * FROM `P_detial_table` WHERE 1";
+        $sql = "SELECT * FROM P_detial_table";
         $result = $conn->query($sql);
            
+
         if ($result->num_rows > 0) 
         {
             // 输出数据
@@ -99,6 +100,10 @@
                 echo "P_title: " . $row["P_title"];
             }
         } 
+        else 
+        {
+         echo "0 结果";
+        }
         $conn->close();
 
         echo "-test- ";
