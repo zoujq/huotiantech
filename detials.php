@@ -78,7 +78,7 @@
       <?php
         require_once './sql.php';
 
-        $P_id=$_GET["pid"];
+        $P_id=$_GET["x"];
 
         $ret=get_detials($P_id) ;
       ?>
