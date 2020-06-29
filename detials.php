@@ -88,7 +88,7 @@
             die("连接失败: " . $conn->connect_error);
         } 
 
-        $sql = "SELECT * FROM `P_detial_table` WHERE `P_id` =1 LIMIT 0 , 10";
+        $sql = "SELECT * FROM P_detial_table WHERE P_id = 1 LIMIT 0 , 10";
         $result = $conn->query($sql);
            
         if ($result->num_rows > 0) 
