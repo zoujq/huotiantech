@@ -73,14 +73,13 @@
   <?php  
     require_once './sql.php';
     $ret=get_tuijian();
-    var_dump($ret);
   ?>
 
   <section id="next-section">
     <div class="container-fluid">
       <div class="row probootstrap-gutter0">
         <div class="col-md-4 col-sm-6">
-          <a href="./detials.php?x=1" class="probootstrap-hover-overlay">
+          <a href="./detials.php?x=<?php echo $ret[0][0]; ?>" class="probootstrap-hover-overlay">
             <img src="./img/product/p1/img_1.jpg" alt="Free Bootstrap Template " class="img-responsive">
             <div class="probootstrap-text-overlay">
               <h3>多功能杀菌器</h3>
