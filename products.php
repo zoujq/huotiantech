@@ -166,7 +166,7 @@
         <?php  
           require_once './sql.php';          
         ?>
-        <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate list_fangan">
+        <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
           <h2>1 智能家居方案</h2>
           <div class="list_fangan" >  
           <?php 
@@ -177,7 +177,6 @@
             }
           ?> 
           </div> 
-          <br>
           <h2 id="f2">2 智能穿戴方案</h2>
           <div class="list_fangan">    
             <?php 
@@ -189,7 +188,6 @@
               }
             ?>  
           </div>
-          <br>
           <h2 id="f3">3 智能医疗方案</h2>
           <div class="list_fangan">    
             <?php 
@@ -201,7 +199,6 @@
               }
             ?>  
           </div>
-          <br>
           <h2 id="f4">4 智能母婴方案</h2>
           <div class="list_fangan">    
             <?php 
@@ -213,7 +210,6 @@
               }
             ?>  
           </div>
-          <br>
           <h2 id="f5">5 智能共享设备方案</h2>
           <div class="list_fangan">    
             <?php 
