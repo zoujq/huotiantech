@@ -247,7 +247,7 @@
       <div class="row">
         <div class="col-md-4 col-md-offset-4 probootstrap-animate">
           <p class="text-center">
-            <a href="./products.html" class="btn btn-ghost btn-ghost-white btn-lg btn-block" role="button">更多案例</a>
+            <a href="./products.php" class="btn btn-ghost btn-ghost-white btn-lg btn-block" role="button">更多案例</a>
           </p>
         </div>
       </div>
