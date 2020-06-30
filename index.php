@@ -89,47 +89,47 @@
           </a>
         </div>
         <div class="col-md-4 col-sm-6">
-          <a href="./detials.php?x=2" class="probootstrap-hover-overlay">
-            <img src="./img/product/p2/img_2.jpg" alt="Free Bootstrap Template " class="img-responsive">
+          <a href="./detials.php?x=<?php echo $ret[1][0]; ?>" class="probootstrap-hover-overlay">
+            <img src="<?php echo $ret[1][3]; ?>" alt="Free Bootstrap Template " class="img-responsive">
             <div class="probootstrap-text-overlay">
-              <h3>智能牙刷消毒架</h3>
-              <p>关爱口腔健康 引领品质生活</p>
+              <h3><?php echo $ret[1][1]; ?></h3>
+              <p><?php  echo $ret[1][4]; ?></p>
             </div>
           </a>
         </div>
         <div class="col-md-4 col-sm-6">
-          <a href="../detials.php?x=4" class="probootstrap-hover-overlay">
-            <img src="./img/product/p3/img_3.jpg" alt="Free Bootstrap Template " class="img-responsive">
+          <a href="../detials.php?x=<?php echo $ret[2][0]; ?>" class="probootstrap-hover-overlay">
+            <img src="<?php echo $ret[2][3]; ?>" alt="Free Bootstrap Template " class="img-responsive">
             <div class="probootstrap-text-overlay">
-              <h3>智能消毒刀架</h3>
-              <p>刀具筷子烘干 UV紫外线杀菌 多功能收纳</p>
+              <h3><?php echo $ret[2][1]; ?></h3>
+              <p><?php echo $ret[2][4]; ?></p>
             </div>
           </a>
         </div>
         <div class="col-md-4 col-sm-6">
-          <a href="./detials.php?x=5" class="probootstrap-hover-overlay">
-            <img src="./img/product/p4/img_4.jpg" alt="Free Bootstrap Template " class="img-responsive">
+          <a href="./detials.php?x=<?php echo $ret[3][0]; ?>" class="probootstrap-hover-overlay">
+            <img src="<?php echo $ret[3][3]; ?>" alt="Free Bootstrap Template " class="img-responsive">
             <div class="probootstrap-text-overlay">
-              <h3>杀菌除臭净化器</h3>
-              <p>臭氧 负离子 香薰</p>
+              <h3><?php echo $ret[3][1]; ?></h3>
+              <p><?php echo $ret[3][4]; ?></p>
             </div>
           </a>
         </div>
         <div class="col-md-4 col-sm-6">
-          <a href="./detials.php?x=6" class="probootstrap-hover-overlay">
-            <img src="./img/product/p5/img_5.jpg" alt="Free Bootstrap Template " class="img-responsive">
+          <a href="./detials.php?x=<?php echo $ret[4][0]; ?>" class="probootstrap-hover-overlay">
+            <img src="<?php echo $ret[4][3]; ?>" alt="Free Bootstrap Template " class="img-responsive">
             <div class="probootstrap-text-overlay">
-              <h3>天猫精灵遥控开关</h3>
-              <p>与家人共享智慧生活</p>
+              <h3><?php echo $ret[4][1]; ?></h3>
+              <p><?php echo $ret[4][4]; ?></p>
             </div>
           </a>
         </div>
         <div class="col-md-4 col-sm-6">
-          <a href="./detials.php?x=7" class="probootstrap-hover-overlay">
-            <img src="./img/product/p6/img_6.jpg" alt="Free Bootstrap Template " class="img-responsive">
+          <a href="./detials.php?x=<?php echo $ret[5][0]; ?>" class="probootstrap-hover-overlay">
+            <img src="<?php echo $ret[5][3]; ?>" alt="Free Bootstrap Template " class="img-responsive">
             <div class="probootstrap-text-overlay">
-              <h3>电动窗帘</h3>
-              <p>机械离合 灵敏控制 静音顺畅</p>
+              <h3><?php echo $ret[5][1]; ?></h3>
+              <p><?php echo $ret[5][4]; ?></p>
             </div>
           </a>
         </div>
@@ -210,10 +210,10 @@
       <div class="row mb70">
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-block-image">
-            <figure><a href="./detials.php?x=1"><img src="./img/product/p1/img_1.jpg" alt="Free Bootstrap Template "></a></figure>
+            <figure><a href="./detials.php?x=<?php echo $ret[0][0]; ?>"><img src="<?php echo $ret[0][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="./detials.php?x=2">多功能杀菌器</a></h3>
-              <p class="dark"> 通过10分钟紫外线消毒能破坏微生物机体细胞中的DNA或RNA分子结构，造成长性细胞死亡，达到杀菌消毒的效果</p>
+              <h3 class="mb30"><a href="./detials.php?x=<?php echo $ret[0][0]; ?>"><?php echo $ret[0][1]; ?></a></h3>
+              <p class="dark"> <?php echo $ret[0][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
               <p class="clearfix like"><a class="pull-left" href="#"><i class="icon-thumbs-up"></i> 5,216</a> <a class="pull-right" href="#"><i class="icon-thumbs-down"></i> 32</a></p>
@@ -222,10 +222,10 @@
         </div>
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-block-image">
-            <figure><a href="./detials.php?x=2"><img src="./img/product/p2/img_2.jpg" alt="Free Bootstrap Template "></a></figure>
+            <figure><a href="./detials.php?x=<?php echo $ret[1][0]; ?>"><img src="<?php echo $ret[1][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="./detials.php?x=2">智能牙刷消毒架</a></h3>
-              <p class="dark">开盖停止工作，合盖开始杀菌。权威检测，杀菌率99.999%。充电式持久续航。自动挤出牙膏，大小口径牙膏通吃。</p>
+              <h3 class="mb30"><a href="./detials.php?x=<?php echo $ret[1][0]; ?>"><?php echo $ret[1][1]; ?></a></h3>
+              <p class="dark"><?php echo $ret[1][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
               <p class="clearfix like"><a class="pull-left" href="#"><i class="icon-thumbs-up"></i> 4,923</a> <a class="pull-right" href="#"><i class="icon-thumbs-down"></i> 12</a></p>
@@ -234,10 +234,10 @@
         </div>
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-block-image">
-            <figure><a href="./detials.php?x=4"><img src="./img/product/p3/img_3.jpg" alt="Free Bootstrap Template "></a></figure>
+            <figure><a href="./detials.php?x=<?php echo $ret[2][0]; ?>"><img src="<?php echo $ret[2][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="./detials.php?x=4">智能消毒刀架</a></h3>
-              <p class="dark">重视家人饮食健康，厨房器具消毒不容忽视。低功耗、UVC杀菌、一键操作、便捷清洗、收纳保护、烘干消毒、健康材质</p>
+              <h3 class="mb30"><a href="./detials.php?x=<?php echo $ret[2][0]; ?>"><?php echo $ret[2][1]; ?></a></h3>
+              <p class="dark"><?php echo $ret[2][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
               <p class="clearfix like"><a class="pull-left" href="#"><i class="icon-thumbs-up"></i> 19,552</a> <a class="pull-right" href="#"><i class="icon-thumbs-down"></i> 7</a></p>
