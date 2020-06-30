@@ -143,7 +143,7 @@
           <div class="probootstrap-block-image">
             <figure><a href="./detials.php?x=<?php echo $ret[4][0]; ?>"><img src="<?php echo $ret[4][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="<?php echo $ret[4][0]; ?>"><?php echo $ret[4][1]; ?></a></h3>
+              <h3 class="mb30"><a href="./detials.php?x=<?php echo $ret[4][0]; ?>"><?php echo $ret[4][1]; ?></a></h3>
               <p class="dark"><?php echo $ret[4][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
