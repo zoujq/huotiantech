@@ -82,7 +82,8 @@
       </div>
       <div class="row">
         <?php  
-          require_once './sql.php';          
+          require_once './sql.php';    
+          $ret=get_tuijian();      
         ?>
         <div class="col-md-4 col-sm-6 probootstrap-animate fadeInUp probootstrap-animated">
           <div class="probootstrap-block-image">
