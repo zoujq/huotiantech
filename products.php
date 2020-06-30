@@ -167,7 +167,7 @@
           require_once './sql.php';          
         ?>
         <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate list_fangan">
-          <h2>智能家居方案</h2>
+          <h2>1 智能家居方案</h2>
           <div class="list_fangan" >  
           <?php 
             $jiaju=get_fangan("智能家居方案");
@@ -175,18 +175,53 @@
             {
               echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
             }
-          ?>  
-          <h2>智能家居方案</h2>
-          <div class="list_fangan" >  
-          <?php 
-            $jiaju=get_fangan("智能家居方案");
-            foreach ( $jiaju as $value)
-            {
-              echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
-            }
-          ?>  
+          ?> 
+          </div> 
+          <h2 id="f2">2 智能穿戴方案</h2>
+          <div class="list_fangan">    
+            <?php 
+              $jiaju=get_fangan("智能穿戴方案");
+
+              foreach ( $jiaju as $value)
+              {
+                echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+              }
+            ?>  
+          </div>
+          <h2 id="f3">3 智能医疗方案</h2>
+          <div class="list_fangan">    
+            <?php 
+              $jiaju=get_fangan("智能医疗方案");
+
+              foreach ( $jiaju as $value)
+              {
+                echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+              }
+            ?>  
+          </div>
+          <h2 id="f4">4 智能母婴方案</h2>
+          <div class="list_fangan">    
+            <?php 
+              $jiaju=get_fangan("智能母婴方案");
+
+              foreach ( $jiaju as $value)
+              {
+                echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+              }
+            ?>  
+          </div>
+          <h2 id="f5">5 智能共享设备方案</h2>
+          <div class="list_fangan">    
+            <?php 
+              $jiaju=get_fangan("智能共享设备方案");
+
+              foreach ( $jiaju as $value)
+              {
+                echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+              }
+            ?>  
+          </div>
         </div>
-      </div>
     </div>
   </section>
 
