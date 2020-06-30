@@ -163,10 +163,19 @@
         <div class="clearfix visible-sm-block"></div>
       </div>
       <div class="row">
-        
-        <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
+        <?php  
+          require_once './sql.php';          
+        ?>
+        <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate list_fangan">
           <h2>智能家居方案</h2>
-          <p class="lead">累计开发了数百款成熟标准电子产品方案</p>
+          <div class="list_fangan" >  
+          <?php 
+            $jiaju=get_fangan("智能家居方案");
+            foreach ( $jiaju as $value)
+            {
+              echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+            }
+          ?>  
         </div>
       </div>
     </div>
