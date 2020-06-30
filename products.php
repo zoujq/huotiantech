@@ -176,6 +176,15 @@
               echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
             }
           ?>  
+          <h2>智能家居方案</h2>
+          <div class="list_fangan" >  
+          <?php 
+            $jiaju=get_fangan("智能家居方案");
+            foreach ( $jiaju as $value)
+            {
+              echo '<a href="./detials.php?n='.$value.'" >'.$value.'</a>';
+            }
+          ?>  
         </div>
       </div>
     </div>
