@@ -81,13 +81,15 @@
         </div>
       </div>
       <div class="row">
-
+        <?php  
+          require_once './sql.php';          
+        ?>
         <div class="col-md-4 col-sm-6 probootstrap-animate fadeInUp probootstrap-animated">
           <div class="probootstrap-block-image">
-            <figure><a href="./detials.php?x=1"><img src="./img/product/p1/img_1.jpg" alt="Free Bootstrap Template "></a></figure>
+            <figure><a href="./detials.php?x=<?php echo $ret[0][0]; ?>"><img src="<?php echo $ret[0][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="./detials.php?x=1">多功能杀菌器</a></h3>
-              <p class="dark">通过10分钟紫外线消毒能破坏微生物机体细胞中的DNA或RNA分子结构，造成长性细胞死亡，达到杀菌消毒的效果</p>
+              <h3 class="mb30"><a href="./detials.php?x=<?php echo $ret[0][0]; ?>"><?php echo $ret[0][1]; ?></a></h3>
+              <p class="dark"><?php echo $ret[0][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
               <p class="clearfix like"><a class="pull-left" href=""><i class="icon-thumbs-up"></i> 5,216</a> <a class="pull-right" href=""><i class="icon-thumbs-down"></i> 32</a></p>
@@ -97,10 +99,10 @@
         <div class="clearfix visible-sm-block"></div>
         <div class="col-md-4 col-sm-6 probootstrap-animate fadeInUp probootstrap-animated">
           <div class="probootstrap-block-image">
-            <figure><a href="./detials.php?x=2"><img src="./img/product/p2/img_2.jpg" alt="Free Bootstrap Template "></a></figure>
+            <figure><a href="./detials.php?x=<?php echo $ret[1][0]; ?>"><img src="<?php echo $ret[1][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="./detials.php?x=2">智能牙刷消毒架</a></h3>
-              <p class="dark">开盖停止工作，合盖开始杀菌。权威检测，杀菌率99.999%。充电式持久续航。自动挤出牙膏，大小口径牙膏通吃</p>
+              <h3 class="mb30"><a href="./detials.php?x=<?php echo $ret[1][0]; ?>"><?php echo $ret[1][1]; ?></a></h3>
+              <p class="dark"><?php echo $ret[1][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
               <p class="clearfix like"><a class="pull-left" href=""><i class="icon-thumbs-up"></i> 4,923</a> <a class="pull-right" href=""><i class="icon-thumbs-down"></i> 12</a></p>
@@ -111,10 +113,10 @@
         <div class="clearfix visible-sm-block"></div>
         <div class="col-md-4 col-sm-6 probootstrap-animate fadeInUp probootstrap-animated">
           <div class="probootstrap-block-image">
-            <figure><a href="./detials.php?x=4"><img src="./img/product/p3/img_3.jpg" alt="Free Bootstrap Template "></a></figure>
+            <figure><a href="./detials.php?x=<?php echo $ret[2][0]; ?>"><img src="<?php echo $ret[2][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="./detials.php?x=4">智能消毒刀架</a></h3>
-              <p class="dark">重视家人饮食健康，厨房器具消毒不容忽视。低功耗、UVC杀菌、一键操作、便捷清洗、收纳保护、烘干消毒、健康材质</p>
+              <h3 class="mb30"><a href="./detials.php?x=<?php echo $ret[2][0]; ?>"><?php echo $ret[2][1]; ?></a></h3>
+              <p class="dark"><?php echo $ret[2][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
               <p class="clearfix like"><a class="pull-left" href="#"><i class="icon-thumbs-up"></i> 19,552</a> <a class="pull-right" href=""><i class="icon-thumbs-down"></i> 7</a></p>
@@ -125,10 +127,10 @@
       <div class="row">
         <div class="col-md-4 col-sm-6 probootstrap-animate">
           <div class="probootstrap-block-image">
-            <figure><a href="./detials.php?x=5"><img src="./img/product/p4/img_4.jpg" alt="Free Bootstrap Template "></a></figure>
+            <figure><a href="./detials.php?x=<?php echo $ret[3][0]; ?>"><img src="<?php echo $ret[3][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="./detials.php?x=5">杀菌除臭净化器</a></h3>
-              <p class="dark">快速除异味杀菌净化环境，轻轻一按还原清新空气，独立香薰盒设计，让杀菌同时拥有迷人香气</p>
+              <h3 class="mb30"><a href="./detials.php?x=<?php echo $ret[3][0]; ?>"><?php echo $ret[3][1]; ?></a></h3>
+              <p class="dark"><?php echo $ret[3][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
               <p class="clearfix like"><a class="pull-left" href=""><i class="icon-thumbs-up"></i> 5,216</a> <a class="pull-right" href=""><i class="icon-thumbs-down"></i> 32</a></p>
@@ -138,10 +140,10 @@
         <div class="clearfix visible-sm-block"></div>
         <div class="col-md-4 col-sm-6 probootstrap-animate">
           <div class="probootstrap-block-image">
-            <figure><a href="./detials.php?x=6"><img src="./img/product/p5/img_5.jpg" alt="Free Bootstrap Template "></a></figure>
+            <figure><a href="./detials.php?x=<?php echo $ret[4][0]; ?>"><img src="<?php echo $ret[4][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="./detials.php?x=6">天猫精灵遥控开关</a></h3>
-              <p class="dark">家人可以一起控制，一部手机控制多个设备，多部手机可以控制一个设备，即使远在国外，也能轻松分享</p>
+              <h3 class="mb30"><a href="<?php echo $ret[4][0]; ?>"><?php echo $ret[4][1]; ?></a></h3>
+              <p class="dark"><?php echo $ret[4][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
               <p class="clearfix like"><a class="pull-left" href=""><i class="icon-thumbs-up"></i> 4,923</a> <a class="pull-right" href=""><i class="icon-thumbs-down"></i> 12</a></p>
@@ -150,10 +152,10 @@
         </div>
         <div class="col-md-4 col-sm-6 probootstrap-animate">
           <div class="probootstrap-block-image">
-            <figure><a href="./detials.php?x=7"><img src="./img/product/p6/img_6.jpg" alt="Free Bootstrap Template "></a></figure>
+            <figure><a href="./detials.php?x=<?php echo $ret[5][0]; ?>"><img src="<?php echo $ret[5][3]; ?>" alt="Free Bootstrap Template "></a></figure>
             <div class="text">
-              <h3 class="mb30"><a href="./detials.php?x=7">电动窗帘</a></h3>
-              <p class="dark">自然唤醒，告别起床气，开启美好的一天，一次操作解决后顾之忧。窗帘怎么开 开多大，停在哪里，你说了算</p>
+              <h3 class="mb30"><a href="./detials.php?x=<?php echo $ret[5][0]; ?>"><?php echo $ret[5][1]; ?></a></h3>
+              <p class="dark"><?php echo $ret[5][2]; ?></p>
               <p class="secondary-color rate"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-half"></i></p>
               <hr>
               <p class="clearfix like"><a class="pull-left" href=""><i class="icon-thumbs-up"></i> 19,552</a> <a class="pull-right" href=""><i class="icon-thumbs-down"></i> 7</a></p>
@@ -163,9 +165,7 @@
         <div class="clearfix visible-sm-block"></div>
       </div>
       <div class="row">
-        <?php  
-          require_once './sql.php';          
-        ?>
+        
         <div class="col-lg-12 col-md-12 mb70 section-heading probootstrap-animate">
           <h2>1 智能家居方案</h2>
           <div class="list_fangan" >  
