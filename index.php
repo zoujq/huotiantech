@@ -73,7 +73,6 @@
   <?php  
     require_once './sql.php';
     $ret=get_tuijian();
-    echo "2";
   ?>
 
   <section id="next-section">
