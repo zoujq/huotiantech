@@ -295,7 +295,7 @@
       <div class="row mt40">
         <div class="col-md-12 text-center">
           <p>
-            <small>© 2020 HuotianTech.com 中山火天智能科技有限公司 版权所有 <a href="http://icp.chinaz.com/info?q=huotiantech.com">粤ICP备20042036号-1</a> </small><br>
+            <small>© 2020 HuotianTech.com 中山火天智能科技有限公司 版权所有  <a href="https://beian.miit.gov.cn">粤ICP备20042036号-1</a> </small><br>
             <a href="#" class="js-backtotop">返回顶部</a>
              
           </p>
